@@ -24,7 +24,7 @@ int main (){
         //Hay que verificar si logramos calcular los 6 primeros números de forma correcta.
 
         double diferencia = pi - 3.141592;
-        if (diferencia >= -0.000001 && diferencia <= 0.000001) { // Tolerancia de 0.000001 para los decimales
+        if (iteraciones >= 10000000 && pi >= 3.141591 && pi <= 3.141593) {
             break;
         }
     }
